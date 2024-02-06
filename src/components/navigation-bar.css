@@ -1,0 +1,215 @@
+.background2 {
+  height: 60px;
+  width: 1913px;
+  position: relative;
+  background-color: var(--snow);
+  display: none;
+  max-width: 100%;
+}
+.name1 {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.text-frame {
+  width: 274px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-xl-5);
+  font-family: var(--font-archivo);
+}
+.icon,
+.input {
+  position: relative;
+}
+.input {
+  height: 32px;
+  width: 520px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-ghostwhite);
+  display: none;
+  max-width: 100%;
+}
+.icon {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.search,
+.tab-frame {
+  display: flex;
+  max-width: 100%;
+}
+.search {
+  width: 520px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-ghostwhite);
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-9xs) var(--padding-6xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.tab-frame {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.label {
+  position: relative;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  font-weight: 300;
+  z-index: 1;
+}
+.percent-frame-background-progr {
+  width: 114px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  color: var(--color-lightslategray);
+}
+.label1 {
+  position: relative;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  font-weight: 300;
+  z-index: 1;
+}
+.column-column-column-column-co {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 var(--padding-lg);
+}
+.tab {
+  align-self: stretch;
+  height: 3px;
+  position: relative;
+  background-color: var(--color-darkslateblue-100);
+  z-index: 1;
+}
+.detail-frame,
+.line-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.line-frame {
+  width: 106px;
+  align-items: center;
+  gap: var(--gap-mini);
+}
+.detail-frame {
+  width: 153px;
+  align-items: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.label2,
+.label3 {
+  position: relative;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  font-weight: 300;
+  z-index: 1;
+}
+.ninth-column-frame {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.side-indicators-informer-info {
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  color: var(--color-lightslategray);
+}
+.profile-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.profile-frame-option {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.option-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.navigation-bar,
+.profile-frame-option1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.navigation-bar {
+  align-self: stretch;
+  background-color: var(--snow);
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-41xl) 0 var(--padding-78xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-body-1-size);
+  color: var(--color-black);
+  font-family: var(--headline-h6);
+}
+@media screen and (max-width: 1600px) {
+  .ninth-column-frame {
+    display: none;
+  }
+  .side-indicators-informer-info {
+    width: 160px;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .navigation-bar {
+    padding-left: var(--padding-29xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navigation-bar {
+    padding-left: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
